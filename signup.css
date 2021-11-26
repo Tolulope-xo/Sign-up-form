@@ -1,0 +1,53 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(108, 139, 240);
+}
+
+div{
+    width: 400px;
+    height: 700px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: black;
+    text-align: center;
+    margin: auto;
+    line-height: 15px;
+    
+}
+
+.Sign{
+    background-color: green;
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+    text-align: centre;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    
+}
+
+::placeholder{
+    text-align: center;
+    color: white;
+    font-weight:20px;
+}
+
+pre{
+    font-size: 15px;
+    color: blue;
+}
+
+#form{
+    text-align: justify;
+    padding-left: 50px;
+    display: inline-block;
+}
